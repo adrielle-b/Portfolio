@@ -15,85 +15,23 @@
 <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">">
-
-<style>
-
-body{
-    background-color: #cdb4db;
-} 
-
-h1{
-    color:#7209b7;
-    font-family: roboto condensed, sans-serif;
-    letter-spacing: 5;
-    font-weight: 30;
-    background-color: #9f86c0;
-    padding: 15px 30px;
-    border-radius: 4px;
-    font-weight: 600;
-}
-
-
-h2 {
-    color: rgb(187, 84, 178);
-    font-family: roboto condensed, sans-serif;
-    letter-spacing: 5;
-    font-weight: 30;
-}
-
-p,ul,ol {
-    font-family: source sans pro, sans-serif;
-    font-size: 16px;
-    
-}
-
-
-
-strong, em {
-    color: #7209b7;
-}
-
-.listas{
-        background-color: #9f86c0;
-        padding: 15px 30px;
-        border-radius: 4px;
-        font-weight: 600;
-
-}
-
-.bio{
-    background-color: #9f86c0;
-    padding: 15px 30px;
-        border-radius: 4px;
-        font-weight: 600;
-        
-}
-
-
-
-</style>
-
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 class="nome">Adrielle Damazio Braga</h1>
-
-    <img src="foto-dri.jpeg" 
-    id= "foto-dri" alt="foto da adrielle" width="300px">
-
-    <h2>Sobre mim</h2>
-
-    <p class="bio" id="sobremim"><strong>Brasileira</strong> e <strong>carioca</strong> sou formada em ciências contábeis e trabalhei na área
+    
+    <h1>Adrielle Damazio Braga</h1>
+    <div class="apresentaçao">
+    <img id="foto-dri" src="foto-dri.jpeg" 
+     alt="foto da adrielle" width="290px">
+    <p id="sobremim"><strong>Brasileira</strong> e <strong>carioca</strong> sou formada em ciências contábeis e trabalhei na área
          por 4 anos.<br>Atualmente estou em transição de carreira, me descobrindo 
          na <strong>tecnologia</strong> e estudando <br>desenvolvimento web na <strong>Trybe</strong>, onde posso explorar a minha
           criatividade.<br><br>
-
           Gosto de atividades ao ar livre, jogos cooperativos e trading. Tenho conhecimentos <br>em <strong><em>análise técninca 
           para mercado financeiro</em></strong> como, teoria de dow, fibonacci e ondas de elliot. </p>
-
-    
-          <h2 id="habilidades">Habilidades</h2>
+        </div>
+        <div id="habilidades"><h2>Habilidades</h2>
           <ul class="listas">
             <li >Organização</li>
             <li><strong>Resiliência</strong></li>
@@ -102,10 +40,10 @@ strong, em {
             <li>HTML</li>
             <li>CSS</li>
           </ul>
-
-          <h2 id="links">Links</h2>
+        </div>
+<div id="links">
+          <h2>Links</h2>
           <ul class="listas">
-
         <li><a href="#foto-dri">Minha foto</a></li>
 
         <li><a href="https://building.nubank.com.br/why-we-killed-our-end-to-end-test-suite/" 
@@ -114,16 +52,15 @@ strong, em {
         <li><a href="https://www.linkedin.com/in/adrielle-braga-81a720125/"
         target="_blank">Meu Linkedin</a></li>
           </ul>
-
+        </div>
+<div>
         <h2>Índice</h2>
         <ol class="listas">
             <li><a href= "#foto-dri">Foto</a></li>
             <li><a href= "#sobremim">Sobre mim</a></li>
             <li><a href= "#habilidades">Habilidades</a></li>
             <li><a href= "#links">Links</a></li>
-
         </ol>
-
-    
+    </div>
 </body>
 </html>

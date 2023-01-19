@@ -1,0 +1,61 @@
+
+
+body {
+    background-color: #cdb4db;
+} 
+h1 {
+    color:#7209b7;
+    font-family: roboto condensed, sans-serif;
+    font-weight: 30;
+    background-color: #9f86c0;
+    padding: 40px 30px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 30px 
+}
+.apresentaçao{
+    margin-right: 8%;
+    margin-left: 8%;
+}
+#foto-dri{
+    border-radius: 50%;
+    padding:3px;
+    background-color: #7209b7;  
+    position: relative;
+}
+#sobremim {
+    background-color: #9f86c0;
+    padding: 40px 20px;
+    border-radius: 30px;
+    font-family: source sans pro, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    float:right;
+    width: 60%   
+}
+h2 {
+    color: rgb(187, 84, 178);
+    font-family: roboto condensed, sans-serif;
+    letter-spacing: 5;
+    font-weight:65px;
+}
+ul,ol {
+    font-family: source sans pro, sans-serif;
+    font-size: 16px;
+}
+#habilidades ul li:nth-child(odd){
+    color:darkmagenta;
+}
+strong, em {
+    color: #7209b7;
+}
+.listas {
+    background-color: #9f86c0;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+
+
+
